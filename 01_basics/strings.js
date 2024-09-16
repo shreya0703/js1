@@ -31,7 +31,7 @@ console.log(url.includes('hello'));
 
 
 const split = (gameName.split('-'));
-console.log(split[3]);
+console.log(split[2]);
 
 
 
