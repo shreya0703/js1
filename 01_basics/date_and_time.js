@@ -31,7 +31,7 @@ console.log(newDate.getDate());
 
 //console.log(`${newDate.getDate()} and the time is ${Math.floor(newDate.getTime()/1000)}`);
 
-newDate.toLocaleString('default',{weekday: "long"})
+//newDate.toLocaleString('default',{weekday: "long"})
 
 
 
