@@ -58,12 +58,25 @@ const obj3={...obj1,...obj2}
     }
  ]
 users[1].email
-console.log(tinderUSer);
-console.log(Object.keys(tinderUSer));
-console.log(Object.values(tinderUSer));
-console.log(Object.entries(tinderUSer));
-console.log(tinderUSer.hasOwnProperty('isLoggedin'));
+//console.log(tinderUSer);
+//console.log(Object.keys(tinderUSer));
+//console.log(Object.values(tinderUSer));
+//console.log(Object.entries(tinderUSer));
+//console.log(tinderUSer.hasOwnProperty('isLoggedin'));
 
 
+//destructuring
+const course = {
+    coursename:"js",
+    price:"999",
+    cousreInstructor: "sir"
 
+}
+// course.cousreInstructor
+const {cousreInstructor: instrutor} = course
+//console.log(instrutor);
 
+const navbar = ({company}) => {
+
+}
+navbar(company= "shreya") 
