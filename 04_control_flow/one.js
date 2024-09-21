@@ -120,3 +120,7 @@ if(userLogedIn ||  debitCard && 2==2){ //or
     console.log("allowed for cousres");
     
 }
+
+
+
+
