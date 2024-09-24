@@ -15,4 +15,13 @@ const myNums =[1,3,4,5,6,7,8,9]
 // console.log(newNums);
 
 
+// const newNums =[]
+// myNums.forEach((num)=>{
+//     if(num >4){
+//         newNums.push(num)
+//     }
+    
+// })
+// console.log(newNums);
+
 
